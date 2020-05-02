@@ -45,7 +45,6 @@ function calculate(){
             break;
         default:
             return;
-            break;
     }
     refresh();
 }
