@@ -6,3 +6,9 @@
     color: blue;
     font-size: 3rem;
 }
+.calculator{
+    display:grid;
+    width:800px;
+    margin:0 auto;
+    grid-template-rows: max-content;
+}
