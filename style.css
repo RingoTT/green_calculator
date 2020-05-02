@@ -1,38 +1,43 @@
-.body{
+.body {
     text-align: center;
     background-color: greenyellow;
-    height:100%;
+    height: 100%;
 }
-#title{
+
+#title {
     color: blue;
     font-size: 3rem;
 }
-.screen{
+
+.screen {
+    vertical-align: middle;
     background-color: black;
-    width:100%;
-    color:white;
+    width: 100%;
+    color: white;
 
 }
-.calculator{
-    grid-gap: 10px;
-    display:grid;
-    width:800px;
-    height:600px;
-    margin:0 auto;
-    padding:10px;
-    background-color: rgba(255,255,255,0.5);
 
-
-}
-.numpad{
+.calculator {
     grid-gap: 10px;
-    display:grid;
-    width:100%;
-    height:100%;
-    
     display: grid;
-  grid-template-areas:
-    'auto auto auto auto';
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
 
- 
+
+}
+
+.numpad {
+    grid-gap: 10px;
+    display: grid;
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-areas:
+        'auto auto auto auto';
+
+
 }
