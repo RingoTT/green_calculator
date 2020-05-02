@@ -5,12 +5,28 @@
 }
 
 #title {
-    color: blue;
+    color: pink;
     font-size: 3rem;
 }
 
+.old-result {
+    font-size: 3.5rem;
+    opacity: 0.5;
+    margin:0;
+    
+}
+
+.new-result {
+    font-size: 8.5rem;
+    margin:0;
+}
+
 .screen {
-    vertical-align: middle;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align:right;
+    
     background-color: black;
     width: 100%;
     color: white;
