@@ -11,14 +11,14 @@
     font-size: 3rem;
 }
 
-.old-result {
+#old-result {
     font-size: 3.5rem;
     opacity: 0.5;
     margin:0;
     
 }
 
-.new-result {
+#new-result {
     font-size: 8.5rem;
     margin:0;
 }
@@ -59,4 +59,8 @@
         'auto auto auto auto';
 
 
+}
+
+.number .operator{
+    border-radius: 50%;
 }
